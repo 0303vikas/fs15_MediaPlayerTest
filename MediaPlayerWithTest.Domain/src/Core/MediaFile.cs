@@ -32,7 +32,7 @@ namespace Domain.src.Core
             }
         }
 
-        public MediaFile(string fileName, string filePath, TimeSpan duration)
+        public MediaFile(string fileName, string filePath, TimeSpan duration, double speed)
         {
             FileName = fileName;
             FilePath = filePath;

@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerWithTest.Applica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerWithTest.Infrastructure", "MediaPlayerWithTest.Infrastructure\MediaPlayerWithTest.Infrastructure.csproj", "{F93A4434-D384-41C4-97D3-61CC677FB0D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerWithTest.Tests", "MediaPlayerWithTest.Tests\MediaPlayerWithTest.Tests.csproj", "{0E617794-7CEF-4E46-9406-03A7BCA839F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayerWithTest.Tests", "MediaPlayerWithTest.Tests\MediaPlayerWithTest.Tests.csproj", "{BC9717BE-F866-4DF1-998A-98A840B9A3BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,9 +46,9 @@ Global
 		{F93A4434-D384-41C4-97D3-61CC677FB0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F93A4434-D384-41C4-97D3-61CC677FB0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F93A4434-D384-41C4-97D3-61CC677FB0D7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E617794-7CEF-4E46-9406-03A7BCA839F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E617794-7CEF-4E46-9406-03A7BCA839F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E617794-7CEF-4E46-9406-03A7BCA839F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E617794-7CEF-4E46-9406-03A7BCA839F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC9717BE-F866-4DF1-998A-98A840B9A3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC9717BE-F866-4DF1-998A-98A840B9A3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC9717BE-F866-4DF1-998A-98A840B9A3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC9717BE-F866-4DF1-998A-98A840B9A3BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

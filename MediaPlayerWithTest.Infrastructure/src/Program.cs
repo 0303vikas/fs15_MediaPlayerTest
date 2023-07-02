@@ -3,7 +3,7 @@ using Business.src.Sevice;
 using Domain.src.Core;
 using Infrastructure.src.Repository;
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {
