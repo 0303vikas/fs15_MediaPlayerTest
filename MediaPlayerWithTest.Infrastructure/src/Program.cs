@@ -22,5 +22,7 @@ public class Program
         var playListController = new PlayListController(playListService);
 
         /* command-line interface should be here. All the methods should be used from class controllers only */
+        Console.WriteLine("What do you wanna do");
+        var usrinput = Console.ReadLine();
     }
 }

@@ -1,11 +1,16 @@
 namespace Domain.src.Core
 {
-    public class PlayList
+    public class PlayList : BaseEntity
     {
         private readonly List<MediaFile> _files = new();
         private readonly int _userId;
 
         public string ListName { get; set; }
+
+        public int UserId
+        {
+            get { return _userId; }
+        }
 
         public PlayList(string name, int userId)
         {

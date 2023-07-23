@@ -8,7 +8,7 @@ namespace Domain.src.RepositoryInterface
         void RemoveOneList(int listId, int userId);
         void RemoveAllLists(int userId);
         void EmptyOneList(int listId, int userId);
-        void GetAllList(int userId);
-        void GetListById(int listId);
+        IEnumerable<PlayList> GetAllList(int userId);
+        PlayList GetListById(int listId);
     }
 }

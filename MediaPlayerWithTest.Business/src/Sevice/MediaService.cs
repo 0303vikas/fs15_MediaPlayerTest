@@ -12,9 +12,9 @@ namespace Business.src.Sevice
             _mediaRepository = mediaRepository;
         }
 
-        public void CreateNewFile(string fileName, string filePath, TimeSpan duration)
+        public void CreateNewFile(string fileName, string filePath, TimeSpan duration, double speed)
         {
-            _mediaRepository.CreateNewFile(fileName, filePath, duration);
+            _mediaRepository.CreateNewFile(fileName, filePath, duration, speed);
         }
 
         public void DeleteFileById(int id)

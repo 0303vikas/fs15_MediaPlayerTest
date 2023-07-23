@@ -11,9 +11,9 @@ namespace Application.src
             _mediaService = mediaService;
         }
 
-        public void CreateNewFile(string fileName, string filePath, TimeSpan duration)
+        public void CreateNewFile(string fileName, string filePath, TimeSpan duration, double speed)
         {
-            _mediaService.CreateNewFile(fileName, filePath, duration);
+            _mediaService.CreateNewFile(fileName, filePath, duration, speed);
         }
 
         public void DeleteFileById(int id)

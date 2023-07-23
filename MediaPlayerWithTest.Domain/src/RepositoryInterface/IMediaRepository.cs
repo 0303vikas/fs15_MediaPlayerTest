@@ -11,9 +11,9 @@ namespace Domain.src.RepositoryInterface
         void Play(int fileId);
         void Pause(int fileId);
         void Stop(int fileId);
-        void CreateNewFile(string fileName, string filePath, TimeSpan duration);
+        void CreateNewFile(string fileName, string filePath, TimeSpan duration, double speed);
         void DeleteFileById(int fileId);
-        void GetAllFiles();
-        void GetFileById(int fileId);
+        IEnumerable<MediaFile> GetAllFiles();
+        MediaFile GetFileById(int fileId);
     }
 }
